@@ -26,7 +26,7 @@ namespace Exercise01
 
             //Previous temperature reading   
 
-            const string OPERATIONAL_FILE_NAME = "C:\\Temp\\TemperatureReading.txt";
+            const string OPERATIONAL_FILE_NAME = "TemperatureReading.txt";
             int previouslyRecordedTemp = inputCurrentTemp;
 
             if (File.Exists(OPERATIONAL_FILE_NAME))
